@@ -19,7 +19,7 @@ if (option == JFileChooser.APPROVE_OPTION) { //если файл выбран, �
        p[2]=bufferedIn.readLine().trim();
        p[3]=bufferedIn.readLine().trim();
        p[4]=bufferedIn.readLine().trim();
-       p[5]=bufferedIn.readLine().trim();
+       p[5]=bufferedIn.readLine().trim();//выбранный файл
                
        bufferedIn.close(); in.close(); //закрываем поток
        
